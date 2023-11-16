@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="product_management.ProductManagementScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff5a23" height="720.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Button fx:id="addProduct" layoutX="310.0" layoutY="192.0" mnemonicParsing="false" onAction="#showAddProductScreen" prefHeight="31.0" prefWidth="471.0" style="-fx-background-color: #ff691f;" text="Add Product ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="editProduct" layoutX="310.0" layoutY="282.0" mnemonicParsing="false" onAction="#showEditProductScreen" prefHeight="31.0" prefWidth="471.0" style="-fx-background-color: #ff691f;" text="Edit Product ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchProduct" layoutX="310.0" layoutY="374.0" mnemonicParsing="false" onAction="#showSearchProductScreen" prefHeight="31.0" prefWidth="471.0" style="-fx-background-color: #ff691f;" text="Search Product ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteProduct" layoutX="309.0" layoutY="464.0" mnemonicParsing="false" onAction="#showDeleteProductScreen" prefHeight="31.0" prefWidth="471.0" style="-fx-background-color: #ff691f;" text="Delete Product ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="backToHome" layoutX="309.0" layoutY="552.0" mnemonicParsing="false" onAction="#showBackToHomeScreen" prefHeight="31.0" prefWidth="471.0" style="-fx-background-color: #ff691f;" text="Back To Home">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="265.0" layoutY="87.0" prefHeight="75.0" prefWidth="561.0" text="  Product Management">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
